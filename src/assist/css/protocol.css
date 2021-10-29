@@ -1,0 +1,58 @@
+/* div {
+    width: 100%;
+    height: 10vh;
+} */
+
+.root_card_container {
+    width: 100%;
+    margin: 0.1vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.card_conainer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    margin: 1vh;
+    padding: 2vh;
+    flex: 1 1 35vh;
+    background-image: linear-gradient(rgb(26, 26, 94), rgb(26, 26, 94)), linear-gradient(146deg, rgba(48, 13, 163, 0.56) 6%, rgba(66, 109, 255, 0.23) 103%)
+}
+
+.card_btn {
+    padding: 1vh;
+    border-radius: 1vh;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+    background-image: linear-gradient( 93deg, #7af8a4, rgb(117, 239, 243));
+    background-color: rgb(52, 52, 245);
+}
+
+@media screen and (min-width: 1024px) {
+    .root_card_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .card_conainer {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 12px;
+        margin: 1vh;
+        padding: 2vh;
+        flex: 1;
+        background-image: linear-gradient(rgb(26, 26, 94), rgb(26, 26, 94)), linear-gradient(146deg, rgba(48, 13, 163, 0.56) 6%, rgba(66, 109, 255, 0.23) 103%)
+    }
+}

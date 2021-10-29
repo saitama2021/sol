@@ -1,0 +1,38 @@
+.root_container_comm {
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item_conainer_comm {
+    width: 90%;
+    border-radius: 12px;
+    display: flex;
+    margin: 2vh;
+    flex: 1 1 35vh;
+    background-image: linear-gradient(rgb(26, 26, 94), rgb(26, 26, 94)), linear-gradient(146deg, rgba(48, 13, 163, 0.56) 6%, rgba(66, 109, 255, 0.23) 103%);
+}
+
+.logo_sec {
+    width: 30%;
+    height: auto;
+    padding: 1vh;
+    text-align: center;
+    border-radius: 12px;
+    background-image: linear-gradient(rgb(26, 26, 94), rgb(26, 26, 94)), linear-gradient(146deg, rgba(48, 13, 163, 0.56) 6%, rgba(66, 109, 255, 0.23) 103%);
+}
+
+.logo_sec img {
+    width: 10vh;
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.item_content {
+    width: 70%;
+    text-align: center;
+    border-radius: 12px;
+    background-image: linear-gradient(rgb(26, 26, 94), rgb(26, 26, 94)), linear-gradient(146deg, rgba(48, 13, 163, 0.56) 6%, rgba(66, 109, 255, 0.23) 103%);
+}

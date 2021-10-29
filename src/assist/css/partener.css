@@ -1,0 +1,25 @@
+.root_container_op {
+    width: 100vw;
+    height: auto;
+}
+
+.img_patner {
+    width: 20%;
+}
+
+.op_section {
+    width: 100vw;
+}
+
+@media screen and (min-width: 1024px) {
+    .root_container_op {
+        width: 80%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .img_patner {
+        width: 12%;
+        margin: 1vh;
+        flex: 1 1 34vh;
+    }
+}
